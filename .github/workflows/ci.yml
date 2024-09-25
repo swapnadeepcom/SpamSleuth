@@ -25,4 +25,5 @@ jobs:
 
     - name: Run unit tests
       run: |
-        pytest tests/
+        python -m pytest
+
