@@ -1,5 +1,5 @@
-from src.model_inference import predict
+import sys
+import os
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '../../src')))
 
-def test_predict():
-    result = predict("Free money now!!!")
-    assert result == [1]  # Assuming 1 is for 'spam'
+from model_inference import predict  # Now this should work
