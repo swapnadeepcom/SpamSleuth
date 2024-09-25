@@ -1,4 +1,4 @@
 pandas
 scikit-learn
 numpy
-pytest
+PYTHONPATH=src pytest tests/
