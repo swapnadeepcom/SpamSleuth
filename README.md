@@ -14,6 +14,11 @@ Built with **Python, scikit-learn, and Streamlit**.
 
 ---
 
+## 🌐 Demo
+Try the live app here: [SMS Spam Classifier Demo](https://swapnadeepcom-spamsleuth-app-xhedjs.streamlit.app/)
+
+---
+
 ## 🛠️ Installation
 
 Clone this repo and install dependencies:
